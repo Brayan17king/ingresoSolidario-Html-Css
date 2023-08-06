@@ -1,0 +1,330 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,500;1,300;1,400;1,500&family=Ubuntu:wght@400;500&display=swap");
+:root {
+  --color1: #3769ca;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+.nav {
+  background-color: #3769ca;
+  position: sticky;
+  top: 0;
+  width: 100%;
+}
+.nav-opc {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 6vw;
+}
+.nav-opc-a {
+  color: white;
+  font-size: 1.5vw;
+  text-decoration: none;
+}
+.nav-opc-img {
+  height: 4vw;
+}
+.nav-opc-boton {
+  background-color: white;
+  padding: 0.5vw 2vw;
+  border-radius: 1vw;
+  font-size: 1.2vw;
+  text-decoration: none;
+  color: black;
+}
+
+.container-inicio {
+  display: flex;
+  align-items: center;
+  background-image: url(../img/Fondo.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 60vw;
+  justify-content: space-around;
+}
+.container-inicio-left {
+  background-color: white;
+  padding: 3vw 2vw;
+  text-align: center;
+  border-radius: 1vw;
+}
+.container-inicio-left h1 {
+  font-size: 1.5vw;
+}
+.container-inicio-left p {
+  font-size: 0.7vw;
+}
+.container-inicio-left-form {
+  display: flex;
+  flex-direction: column;
+  gap: 0.4vw;
+}
+.container-inicio-left-form label {
+  font-size: 0.9vw;
+  text-align: left;
+}
+.container-inicio-left-form select {
+  height: 1.8vw;
+  width: 25vw;
+}
+.container-inicio-left-form input {
+  height: 1.5vw;
+}
+.container-inicio-left-form-a {
+  background-color: #157efb;
+  padding: 0.6vw 3vw;
+  border-radius: 1vw;
+  text-decoration: none;
+  color: white;
+  margin: auto;
+}
+.container-inicio-right {
+  text-align: center;
+  font-size: 1.2vw;
+}
+.container-inicio-right-p {
+  font-size: 2.2vw;
+  font-weight: 200;
+  margin: 1vw;
+}
+.container-inicio-right-text1 {
+  font-size: 1.2vw;
+  margin: 2vw 0vw;
+  line-height: 1.8vw;
+}
+.container-inicio-right-text2 {
+  padding: 0.6vw 3vw;
+  border-radius: 1vw;
+  background-color: #157efb;
+  text-decoration: none;
+  color: white;
+}
+.container-what {
+  height: 35vw;
+  text-align: center;
+  margin: 6vw;
+}
+.container-what-p {
+  font-size: 3vw;
+}
+.container-what-back {
+  margin: 3vw 0;
+  display: flex;
+  justify-content: center;
+}
+.container-what-back-left {
+  display: flex;
+  flex-direction: column;
+  font-size: 1.6vw;
+  align-items: center;
+  width: 60vw;
+}
+.container-what-back-left-a {
+  text-decoration: none;
+  text-align: center;
+  margin: 4vw 0px;
+  font-size: 1vw;
+  color: black;
+}
+.container-what-back-right {
+  width: 40vw;
+}
+.container-what-back-right img {
+  width: 40vw;
+  height: 30vw;
+  margin-top: -3vw;
+}
+.container-etapas {
+  height: 50vw;
+}
+.container-etapas-title {
+  font-size: 2.5vw;
+  text-align: center;
+  margin: 1vw 0;
+}
+.container-etapas-banco {
+  font-size: 2.5vw;
+  text-align: center;
+  margin: 1vw 0 0 0;
+}
+.container-etapas-a {
+  text-decoration: none;
+  display: block;
+  text-align: center;
+  margin: 3vw 0px;
+  font-size: 1vw;
+  color: black;
+}
+.container-etapas-entrega {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  margin: 0 8vw;
+}
+.container-etapas-entrega-1, .container-etapas-entrega-2, .container-etapas-entrega-3 {
+  font-size: 2vw;
+  line-height: 5vw;
+}
+.container-etapas-bancos {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 3vw;
+}
+.container-etapas-bancos-1 {
+  width: 25vw;
+  height: 10vw;
+  margin-top: 3vw;
+}
+.container-etapas-bancos-2 {
+  width: 25vw;
+  height: 12vw;
+}
+.container-etapas-bancos-3 {
+  width: 25vw;
+  height: 6vw;
+  margin-top: 3vw;
+}
+.container-etapas-bancos2 {
+  margin: 2vw 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  gap: 3vw;
+}
+.container-etapas-bancos2-1 {
+  width: 15vw;
+  height: 5vw;
+  margin: 0 2vw;
+}
+.container-etapas-bancos2-2 {
+  width: 16vw;
+  height: 10vw;
+  margin-top: -3vw;
+}
+.container-preguntas {
+  margin-top: 1vw;
+  text-align: center;
+}
+.container-preguntas-title {
+  font-size: 2vw;
+  text-align: center;
+  margin: 2vw;
+}
+.container-preguntas-icon {
+  background-color: #157efb;
+  padding: 1vw;
+  width: 3vw;
+  height: 3vw;
+  color: white;
+  display: inline-block;
+  border-radius: 50%;
+  margin: 1vw;
+}
+.container-preguntas-t strong {
+  font-size: 1.8vw;
+  line-height: 2.7vw;
+}
+.container-preguntas-txt {
+  font-size: 1.4vw;
+  line-height: 2vw;
+}
+.container-preguntas-a {
+  text-decoration: none;
+  text-align: center;
+  margin: 10vw 0px;
+  font-size: 1vw;
+  color: black;
+}
+.container-preguntas-contact {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  background-color: #157efb;
+  height: 14vw;
+  margin: 0 10vw;
+  border-radius: 2.5vw;
+}
+.container-preguntas-contact-h1 {
+  font-size: 2vw;
+  color: white;
+  margin: 2vw 0 0 0;
+}
+.container-preguntas-contact-p {
+  font-size: 1.6vw;
+  color: white;
+}
+.container-preguntas-contact-a {
+  background-color: white;
+  margin: auto;
+  padding: 0.6vw 3vw;
+  border-radius: 1vw;
+  text-decoration: none;
+  color: black;
+}
+
+.footer {
+  background-color: #3266cc;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 3vw 0 0 0;
+  height: 8vw;
+}
+.footer-left {
+  text-align: center;
+  font-size: 0.9vw;
+  color: white;
+}
+.footer-left-loc {
+  color: white;
+  font-size: 1.5vw;
+}
+.footer-center {
+  text-align: center;
+  justify-content: center;
+}
+.footer-center-img {
+  width: 18vw;
+  height: 3.5vw;
+}
+.footer-center-redes {
+  display: flex;
+  justify-content: center;
+}
+.footer-center-redes p {
+  font-size: 1vw;
+}
+.footer-center-redes-1, .footer-center-redes-2, .footer-center-redes-3 {
+  background-color: white;
+  border-radius: 1vw;
+  color: #3266cc;
+  padding: 0.2vw;
+  margin: 0.2vw;
+}
+.footer-right {
+  text-align: center;
+  font-size: 0.9vw;
+  color: white;
+}
+.footer-right-tel {
+  color: white;
+  font-size: 1.5vw;
+}/*# sourceMappingURL=styles.css.map */
