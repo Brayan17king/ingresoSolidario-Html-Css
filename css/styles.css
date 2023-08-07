@@ -4,6 +4,7 @@
 }
 
 html {
+  scroll-behavior: smooth;
   box-sizing: border-box;
   font-size: 62.5%;
 }
@@ -84,7 +85,7 @@ body {
   width: 25vw;
 }
 .container-inicio-left-form input {
-  height: 1.5vw;
+  height: 2vw;
 }
 .container-inicio-left-form-a {
   background-color: #157efb;
